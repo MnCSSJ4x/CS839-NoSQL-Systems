@@ -6,5 +6,6 @@ CREATE TABLE keywords(
     term_id SERIAL  ,
     term VARCHAR(100) NOT NULL, 
     article_id INT NOT NULL, 
+    score NUMERIC(4,3) NOT NULL, 
 
 );

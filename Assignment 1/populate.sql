@@ -1,1 +1,2 @@
-COPY url FROM '/Users/monjoy/Desktop/Assignment 1/Wikipedia-EN-20120601_REVISION_URIS.TSV' DELIMITER E'\t' CSV HEADER;
+COPY url FROM '/tmp/Wikipedia-EN-20120601_REVISION_URIS.TSV' DELIMITER E'\t';
+COPY keywords FROM '/tmp/Wikipedia-EN-20120601_KEYWORDS.TSV' DELIMITER E'\t';
