@@ -1,0 +1,1 @@
+COPY url FROM '/Users/monjoy/Library/CloudStorage/OneDrive-iiit-b/Semester 6/NoSQL Systems/Assignments/CS839-NoSQL-Systems/Assignment 1/Wikipedia-EN-20120601_REVISION_URIS.TSV' DELIMITER E'\t' CSV HEADER;
