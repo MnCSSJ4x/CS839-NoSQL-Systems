@@ -1,2 +1,2 @@
-COPY url FROM '/tmp/Wikipedia-EN-20120601_REVISION_URIS.TSV' DELIMITER E'\t';
-COPY keywords FROM '/tmp/Wikipedia-EN-20120601_KEYWORDS.TSV' DELIMITER E'\t';
+COPY url(id,uri) FROM '/tmp/Wikipedia-EN-20120601_REVISION_URIS.TSV' DELIMITER E'\t' ENCODING 'UTF8';
+COPY keywords(article_id,term,score) FROM '/tmp/Wikipedia-EN-20120601_KEYWORDS.TSV' DELIMITER E'\t' ENCODING 'UTF8';

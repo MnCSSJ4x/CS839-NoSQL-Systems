@@ -1,6 +1,10 @@
+CREATE DATABASE "wiki"
+  WITH OWNER "postgres"
+  ENCODING 'UTF8'; 
+-- \c wiki 
 CREATE TABLE url(
     id INT NOT NULL UNIQUE PRIMARY KEY,
-    uri VARCHAR(250) NOT NULL
+    uri VARCHAR(2048) NOT NULL
 );
 CREATE TABLE keywords(
     term_id SERIAL PRIMARY KEY ,
