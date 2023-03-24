@@ -11,5 +11,10 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/Users/monjoy/Library/CloudStorage/OneDrive-iiit-b/Semester 6/NoSQL Systems/Assignments/CS839-NoSQL-Systems/Assignment 2/opennlp-en-ud-ewt-pos-1.0-1.9.3.bin">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

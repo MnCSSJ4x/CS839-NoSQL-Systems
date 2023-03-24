@@ -13,10 +13,11 @@ public class PosTag {
 
 	public static void main(String[] args) throws Exception {
 		//Instanciate POS tagger
-		POSModel model = new POSModelLoader().load(new File("/Users/vinu.venugopal/CloudDrive/NoSQL2023/Assignment-2/JARS/opennlp-en-ud-ewt-pos-1.0-1.9.3.bin")); //Edit path to the pre-trained model file
+		//Edit path to the pre-trained model file
+		POSModel model = new POSModelLoader().load(new File("/Users/monjoy/Library/CloudStorage/OneDrive-iiit-b/Semester 6/NoSQL Systems/Assignments/CS839-NoSQL-Systems/Assignment 2/opennlp-en-ud-ewt-pos-1.0-1.9.3.bin")); 
 		POSTaggerME tagger = new POSTaggerME(model);
 
-		//String line = "Can anyone help me dig through OpenNLP's documentation?";
+		String line = "Can anyone help me dig through OpenNLP's documentation?";
 		if (line != null) {
 			SimpleTokenizer tokenizer = SimpleTokenizer.INSTANCE;
 	    	String tokenizedLine[] = tokenizer.tokenize(line); //Tokenize line
